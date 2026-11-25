@@ -16,6 +16,7 @@ from sqlalchemy.orm import sessionmaker
 
 from app.config import settings
 from app.services.sync_transport_worker import SyncTransportWorker
+from app.services.sync_transport_service import SyncTransportService
 from app.sync_transport_runtime import http_sender
 
 
@@ -55,9 +56,14 @@ def main() -> None:
     transport_enabled = os.environ.get("SYNC_WORKER_TRANSPORT") == "1"
     if transport_enabled:
         sender = http_sender(target=os.environ.get("WORKER_TARGET", ""), source=os.environ.get("WORKER_SOURCE", ""), secret=os.environ.get("WORKER_SECRET", ""), peer_device_uuid=str(peer), channel=channel)
+        def before_send(events):
+            if not events: return
+            with factory() as db:
+                SyncTransportService().authorize_relay(db, carrier_device_uuid=peer, origin_device_uuid=uuid.UUID(events[0]["source_device_uuid"]), origin_generation_uuid=uuid.UUID(events[0]["source_generation_uuid"]), destination_device_uuid=peer, channel=channel)
     else:
         def sender(events):
             raise RuntimeError("transport sender is not configured; inbox application remains enabled")
+        before_send = None
 
     worker = SyncTransportWorker(
         factory,
@@ -67,6 +73,7 @@ def main() -> None:
         publisher_generation_uuid=publisher_generation,
         publisher_clinic_uuid=publisher_clinic,
         sender=sender,
+        before_send=before_send,
         batch_size=int(os.environ.get("WORKER_BATCH_SIZE", "10")),
     )
     worker.application_enabled = os.environ.get("WORKER_APPLY_INBOX", "1") == "1"
