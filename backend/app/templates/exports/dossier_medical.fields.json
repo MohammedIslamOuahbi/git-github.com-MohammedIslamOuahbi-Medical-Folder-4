@@ -1,0 +1,344 @@
+{
+  "template_filename": "Dossier médical.pdf",
+  "coordinate_space": "fitz_top_left",
+  "notes": [
+    "Coordinate map for the scanned 3-page Dossier médical template.",
+    "Coordinates are stored in fitz_top_left space and converted by the backend PDF service at render time.",
+    "This template uses dedicated dossier keys and does not change the worker medical visit PDF contract."
+  ],
+  "fields": {
+    "dossier_number": [
+      { "page": 1, "x": 365, "y": 191, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 120, "multiline": false }
+    ],
+    "last_name": [
+      { "page": 1, "x": 67, "y": 232, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 165, "multiline": false }
+    ],
+    "first_name": [
+      { "page": 1, "x": 266, "y": 232, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 170, "multiline": false }
+    ],
+    "sex": [
+      { "page": 1, "x": 474, "y": 232, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 46, "multiline": false }
+    ],
+    "birth_date": [
+      { "page": 1, "x": 71, "y": 252, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 120, "multiline": false }
+    ],
+    "birth_place": [
+      { "page": 1, "x": 222, "y": 252, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 90, "multiline": false }
+    ],
+    "family_situation": [
+      { "page": 1, "x": 134, "y": 279, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 160, "multiline": false }
+    ],
+    "phone": [
+      { "page": 1, "x": 350, "y": 279, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 140, "multiline": false }
+    ],
+    "origin_address": [
+      { "page": 1, "x": 136, "y": 306, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 350, "multiline": false }
+    ],
+    "professional_address": [
+      { "page": 1, "x": 170, "y": 330, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 316, "multiline": false }
+    ],
+    "school_education": [
+      { "page": 1, "x": 159, "y": 394, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 325, "multiline": false }
+    ],
+    "professional_training": [
+      { "page": 1, "x": 162, "y": 430, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 320, "multiline": false }
+    ],
+    "professional_qualification": [
+      { "page": 1, "x": 177, "y": 472, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 308, "multiline": false }
+    ],
+    "professional_history_position_1": [
+      { "page": 1, "x": 70, "y": 567, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 150, "multiline": false }
+    ],
+    "professional_history_from_1": [
+      { "page": 1, "x": 232, "y": 567, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 48, "multiline": false }
+    ],
+    "professional_history_to_1": [
+      { "page": 1, "x": 286, "y": 567, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 48, "multiline": false }
+    ],
+    "professional_history_risks_1": [
+      { "page": 1, "x": 339, "y": 567, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 145, "multiline": false }
+    ],
+    "professional_history_position_2": [
+      { "page": 1, "x": 70, "y": 625, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 150, "multiline": false }
+    ],
+    "professional_history_from_2": [
+      { "page": 1, "x": 232, "y": 625, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 48, "multiline": false }
+    ],
+    "professional_history_to_2": [
+      { "page": 1, "x": 286, "y": 625, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 48, "multiline": false }
+    ],
+    "professional_history_risks_2": [
+      { "page": 1, "x": 339, "y": 625, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 145, "multiline": false }
+    ],
+    "professional_history_position_3": [
+      { "page": 1, "x": 70, "y": 683, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 150, "multiline": false }
+    ],
+    "professional_history_from_3": [
+      { "page": 1, "x": 232, "y": 683, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 48, "multiline": false }
+    ],
+    "professional_history_to_3": [
+      { "page": 1, "x": 286, "y": 683, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 48, "multiline": false }
+    ],
+    "professional_history_risks_3": [
+      { "page": 1, "x": 339, "y": 683, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 145, "multiline": false }
+    ],
+    "service_national_accompli": [
+      { "page": 1, "x": 203, "y": 743, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 10, "multiline": false }
+    ],
+    "service_national_dispense": [
+      { "page": 1, "x": 334, "y": 743, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 10, "multiline": false }
+    ],
+    "service_national_inapte": [
+      { "page": 1, "x": 463, "y": 743, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 10, "multiline": false }
+    ],
+    "chronic_disease_notes": [
+      { "page": 1, "x": 155, "y": 798, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 355, "multiline": false }
+    ],
+    "blood_group_rhesus": [
+      { "page": 1, "x": 468, "y": 824, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 78, "multiline": false }
+    ],
+    "congenital_diseases": [
+      { "page": 2, "x": 150, "y": 62, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 408, "multiline": true, "line_height": 12 }
+    ],
+    "general_diseases": [
+      { "page": 2, "x": 145, "y": 99, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 413, "multiline": true, "line_height": 12 }
+    ],
+    "surgical_interventions": [
+      { "page": 2, "x": 188, "y": 161, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 370, "multiline": true, "line_height": 12 }
+    ],
+    "accidents": [
+      { "page": 2, "x": 113, "y": 210, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 445, "multiline": true, "line_height": 12 }
+    ],
+    "intoxications_tobacco": [
+      { "page": 2, "x": 154, "y": 291, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 116, "multiline": false }
+    ],
+    "intoxications_chewing_tobacco": [
+      { "page": 2, "x": 357, "y": 291, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 120, "multiline": false }
+    ],
+    "intoxications_alcoholism": [
+      { "page": 2, "x": 164, "y": 316, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 132, "multiline": false }
+    ],
+    "intoxications_others": [
+      { "page": 2, "x": 367, "y": 316, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 150, "multiline": false }
+    ],
+    "vaccination_name_1": [
+      { "page": 2, "x": 79, "y": 377, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 118, "multiline": false }
+    ],
+    "vaccination_first_dose_1": [
+      { "page": 2, "x": 226, "y": 377, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 58, "multiline": false }
+    ],
+    "vaccination_second_dose_1": [
+      { "page": 2, "x": 320, "y": 377, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 58, "multiline": false }
+    ],
+    "vaccination_first_booster_1": [
+      { "page": 2, "x": 411, "y": 377, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 58, "multiline": false }
+    ],
+    "vaccination_second_booster_1": [
+      { "page": 2, "x": 500, "y": 377, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 58, "multiline": false }
+    ],
+    "vaccination_name_2": [
+      { "page": 2, "x": 79, "y": 399, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 118, "multiline": false }
+    ],
+    "vaccination_first_dose_2": [
+      { "page": 2, "x": 226, "y": 399, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 58, "multiline": false }
+    ],
+    "vaccination_second_dose_2": [
+      { "page": 2, "x": 320, "y": 399, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 58, "multiline": false }
+    ],
+    "vaccination_first_booster_2": [
+      { "page": 2, "x": 411, "y": 399, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 58, "multiline": false }
+    ],
+    "vaccination_second_booster_2": [
+      { "page": 2, "x": 500, "y": 399, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 58, "multiline": false }
+    ],
+    "vaccination_name_3": [
+      { "page": 2, "x": 79, "y": 421, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 118, "multiline": false }
+    ],
+    "vaccination_first_dose_3": [
+      { "page": 2, "x": 226, "y": 421, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 58, "multiline": false }
+    ],
+    "vaccination_second_dose_3": [
+      { "page": 2, "x": 320, "y": 421, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 58, "multiline": false }
+    ],
+    "vaccination_first_booster_3": [
+      { "page": 2, "x": 411, "y": 421, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 58, "multiline": false }
+    ],
+    "vaccination_second_booster_3": [
+      { "page": 2, "x": 500, "y": 421, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 58, "multiline": false }
+    ],
+    "family_history_father": [
+      { "page": 2, "x": 88, "y": 523, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 220, "multiline": false }
+    ],
+    "family_history_mother": [
+      { "page": 2, "x": 88, "y": 551, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 220, "multiline": false }
+    ],
+    "family_history_sisters": [
+      { "page": 2, "x": 160, "y": 579, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 110, "multiline": false }
+    ],
+    "family_history_brothers": [
+      { "page": 2, "x": 327, "y": 579, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 110, "multiline": false }
+    ],
+    "family_history_spouse": [
+      { "page": 2, "x": 102, "y": 607, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 206, "multiline": false }
+    ],
+    "family_history_children_boys": [
+      { "page": 2, "x": 151, "y": 635, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 115, "multiline": false }
+    ],
+    "family_history_children_girls": [
+      { "page": 2, "x": 327, "y": 635, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 112, "multiline": false }
+    ],
+    "work_accident_date_1": [
+      { "page": 2, "x": 50, "y": 575, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 56, "multiline": false }
+    ],
+    "work_accident_place_1": [
+      { "page": 2, "x": 129, "y": 575, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 115, "multiline": false }
+    ],
+    "work_accident_consequences_1": [
+      { "page": 2, "x": 247, "y": 575, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 300, "multiline": false }
+    ],
+    "work_accident_date_2": [
+      { "page": 2, "x": 50, "y": 603, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 56, "multiline": false }
+    ],
+    "work_accident_place_2": [
+      { "page": 2, "x": 129, "y": 603, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 115, "multiline": false }
+    ],
+    "work_accident_consequences_2": [
+      { "page": 2, "x": 247, "y": 603, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 300, "multiline": false }
+    ],
+    "work_accident_date_3": [
+      { "page": 2, "x": 50, "y": 631, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 56, "multiline": false }
+    ],
+    "work_accident_place_3": [
+      { "page": 2, "x": 129, "y": 631, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 115, "multiline": false }
+    ],
+    "work_accident_consequences_3": [
+      { "page": 2, "x": 247, "y": 631, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 300, "multiline": false }
+    ],
+    "work_accident_date_4": [
+      { "page": 2, "x": 50, "y": 659, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 56, "multiline": false }
+    ],
+    "work_accident_place_4": [
+      { "page": 2, "x": 129, "y": 659, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 115, "multiline": false }
+    ],
+    "work_accident_consequences_4": [
+      { "page": 2, "x": 247, "y": 659, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 300, "multiline": false }
+    ],
+    "occupational_disease_date_1": [
+      { "page": 2, "x": 48, "y": 754, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 42, "multiline": false }
+    ],
+    "occupational_disease_place_1": [
+      { "page": 2, "x": 108, "y": 754, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 52, "multiline": false }
+    ],
+    "occupational_disease_products_1": [
+      { "page": 2, "x": 181, "y": 754, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 132, "multiline": false }
+    ],
+    "occupational_disease_symptoms_1": [
+      { "page": 2, "x": 329, "y": 754, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 122, "multiline": false }
+    ],
+    "occupational_disease_tmp_1": [
+      { "page": 2, "x": 488, "y": 754, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 26, "multiline": false }
+    ],
+    "occupational_disease_ipp_1": [
+      { "page": 2, "x": 541, "y": 754, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 22, "multiline": false }
+    ],
+    "occupational_disease_date_2": [
+      { "page": 2, "x": 48, "y": 784, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 42, "multiline": false }
+    ],
+    "occupational_disease_place_2": [
+      { "page": 2, "x": 108, "y": 784, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 52, "multiline": false }
+    ],
+    "occupational_disease_products_2": [
+      { "page": 2, "x": 181, "y": 784, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 132, "multiline": false }
+    ],
+    "occupational_disease_symptoms_2": [
+      { "page": 2, "x": 329, "y": 784, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 122, "multiline": false }
+    ],
+    "occupational_disease_tmp_2": [
+      { "page": 2, "x": 488, "y": 784, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 26, "multiline": false }
+    ],
+    "occupational_disease_ipp_2": [
+      { "page": 2, "x": 541, "y": 784, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 22, "multiline": false }
+    ],
+    "occupational_disease_date_3": [
+      { "page": 2, "x": 48, "y": 814, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 42, "multiline": false }
+    ],
+    "occupational_disease_place_3": [
+      { "page": 2, "x": 108, "y": 814, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 52, "multiline": false }
+    ],
+    "occupational_disease_products_3": [
+      { "page": 2, "x": 181, "y": 814, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 132, "multiline": false }
+    ],
+    "occupational_disease_symptoms_3": [
+      { "page": 2, "x": 329, "y": 814, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 122, "multiline": false }
+    ],
+    "occupational_disease_tmp_3": [
+      { "page": 2, "x": 488, "y": 814, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 26, "multiline": false }
+    ],
+    "occupational_disease_ipp_3": [
+      { "page": 2, "x": 541, "y": 814, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 22, "multiline": false }
+    ],
+    "professional_disease_notes": [
+      { "page": 2, "x": 188, "y": 841, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 250, "multiline": false }
+    ],
+    "consultation_date_1": [
+      { "page": 3, "x": 54, "y": 97, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 62, "multiline": false }
+    ],
+    "consultation_observation_1": [
+      { "page": 3, "x": 127, "y": 97, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 425, "multiline": false }
+    ],
+    "consultation_date_2": [
+      { "page": 3, "x": 54, "y": 123, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 62, "multiline": false }
+    ],
+    "consultation_observation_2": [
+      { "page": 3, "x": 127, "y": 123, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 425, "multiline": false }
+    ],
+    "consultation_date_3": [
+      { "page": 3, "x": 54, "y": 149, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 62, "multiline": false }
+    ],
+    "consultation_observation_3": [
+      { "page": 3, "x": 127, "y": 149, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 425, "multiline": false }
+    ],
+    "consultation_date_4": [
+      { "page": 3, "x": 54, "y": 175, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 62, "multiline": false }
+    ],
+    "consultation_observation_4": [
+      { "page": 3, "x": 127, "y": 175, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 425, "multiline": false }
+    ],
+    "consultation_date_5": [
+      { "page": 3, "x": 54, "y": 201, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 62, "multiline": false }
+    ],
+    "consultation_observation_5": [
+      { "page": 3, "x": 127, "y": 201, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 425, "multiline": false }
+    ],
+    "consultation_date_6": [
+      { "page": 3, "x": 54, "y": 227, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 62, "multiline": false }
+    ],
+    "consultation_observation_6": [
+      { "page": 3, "x": 127, "y": 227, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 425, "multiline": false }
+    ],
+    "consultation_date_7": [
+      { "page": 3, "x": 54, "y": 253, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 62, "multiline": false }
+    ],
+    "consultation_observation_7": [
+      { "page": 3, "x": 127, "y": 253, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 425, "multiline": false }
+    ],
+    "consultation_date_8": [
+      { "page": 3, "x": 54, "y": 279, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 62, "multiline": false }
+    ],
+    "consultation_observation_8": [
+      { "page": 3, "x": 127, "y": 279, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 425, "multiline": false }
+    ],
+    "consultation_date_9": [
+      { "page": 3, "x": 54, "y": 305, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 62, "multiline": false }
+    ],
+    "consultation_observation_9": [
+      { "page": 3, "x": 127, "y": 305, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 425, "multiline": false }
+    ],
+    "consultation_date_10": [
+      { "page": 3, "x": 54, "y": 331, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 62, "multiline": false }
+    ],
+    "consultation_observation_10": [
+      { "page": 3, "x": 127, "y": 331, "font_size": 12, "font_color": [0, 0, 1], "font_name": "helv", "font_weight": "bold", "max_width": 425, "multiline": false }
+    ]
+  }
+}

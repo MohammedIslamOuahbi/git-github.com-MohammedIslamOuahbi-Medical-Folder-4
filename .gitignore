@@ -1,0 +1,63 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Frontend builds
+frontend/dist/
+frontend/dist-tauri/
+frontend/.tauri/updater.key
+
+# Tauri / Rust
+**/target/
+
+# Backend builds
+backend/build/
+backend/dist/
+
+# Backend temporary/generated files
+backend/tmp/
+backend/tmp_alembic_validation.db
+backend/generated_pdfs/
+
+# Database backups
+*.db
+*.db-shm
+*.db-wal
+*.backup
+*.bak
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Executables / packages
+*.exe
+*.pkg
+*.msi
+*.dmg
+*.deb
+*.AppImage
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backups
+backups/

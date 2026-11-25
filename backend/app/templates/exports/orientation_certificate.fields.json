@@ -1,0 +1,208 @@
+{
+  "template_filename": "Attestation d'orientation.pdf",
+  "coordinate_space": "fitz_top_left",
+  "notes": [
+    "Real-template coordinate map for the scanned Attestation d'orientation form.",
+    "Coordinates stay in fitz_top_left space and are converted at render time by the backend PDF service.",
+    "Fields without a visible destination on the paper template are intentionally left unresolved with an empty placement list."
+  ],
+  "fields": {
+    "orientation_number": [
+      {
+        "page": 1,
+        "x": 270,
+        "y": 155,
+        "font_size": 13,
+        "font_color": [1, 0, 0],
+        "font_name": "times",
+        "font_weight": "bold",
+        "max_width": 150,
+        "multiline": false
+      }
+    ],
+    "orientation_date": [
+      {
+        "page": 1,
+        "x": 270,
+        "y": 505,
+        "font_size": 13,
+        "font_color": [0, 0, 1],
+        "font_name": "times",
+        "font_weight": "bold",
+        "max_width": 150,
+        "multiline": false
+      }
+    ],
+    "patient_full_name": [
+      {
+        "page": 1,
+        "x": 138,
+        "y": 319,
+        "font_size": 13,
+        "font_color": [0, 0, 1],
+        "font_name": "times",
+        "font_weight": "bold",
+        "max_width": 300,
+        "multiline": false
+      }
+    ],
+    "patient_age": [
+      {
+        "page": 1,
+        "x": 65,
+        "y": 343,
+        "font_size": 13,
+        "font_color": [0, 0, 1],
+        "font_name": "times",
+        "font_weight": "bold",
+        "max_width": 120,
+        "multiline": false
+      }
+    ],
+    "doctor_name": [
+      {
+        "page": 1,
+        "x": 270,
+        "y": 480,
+        "font_size": 13,
+        "font_color": [0, 0, 1],
+        "font_name": "times",
+        "font_weight": "bold",
+        "max_width": 250,
+        "multiline": false
+      }
+    ],
+    "orientation_type_a": [
+      {
+        "page": 1,
+        "x": 58,
+        "y": 212,
+        "font_size": 12,
+        "font_color": [0, 0, 1],
+        "font_name": "times",
+        "font_weight": "bold",
+        "max_width": 250,
+        "multiline": false
+      }
+    ],
+    "orientation_type_b": [
+      {
+        "page": 1,
+        "x": 58,
+        "y": 232,
+        "font_size": 12,
+        "font_color": [0, 0, 1],
+        "font_name": "times",
+        "font_weight": "bold",
+        "max_width": 250,
+        "multiline": false
+      }
+    ],
+    "orientation_type_c": [
+      {
+        "page": 1,
+        "x": 58,
+        "y": 252,
+        "font_size": 12,
+        "font_color": [0, 0, 1],
+        "font_name": "times",
+        "font_weight": "bold",
+        "max_width": 250,
+        "multiline": false
+      }
+    ],
+    "orientation_type_other": [
+      {
+        "page": 1,
+        "x": 123,
+        "y": 252,
+        "font_size": 12,
+        "font_color": [0, 0, 1],
+        "font_name": "times",
+        "font_weight": "bold",
+        "max_width": 250,
+        "multiline": true,
+        "line_height": 15
+      }
+    ],
+    "orientation_details": [
+      {
+        "page": 1,
+        "x": 40,
+        "y": 385,
+        "font_size": 13,
+        "font_color": [0, 0, 1],
+        "font_name": "times",
+        "font_weight": "normal",
+        "max_width": 500,
+        "multiline": true,
+        "line_height": 15
+      }
+    ],
+    "decision_validation_signature": [
+      {
+        "page": 1,
+        "x": 180,
+        "y": 385,
+        "image_width": 330,
+        "image_height": 130
+        
+      }
+    ],
+    "workspace_name": [
+      {
+        "page": 1,
+        "x": 50,
+        "y": 30,
+        "font_size": 9,
+        "font_color": [0.1, 0.1, 0.4],
+        "font_name": "times",
+        "font_weight": "bold",
+        
+        "max_width": 200,
+        "multiline": false
+      }
+    ],
+    "workspace_address": [
+      {
+        "page": 1,
+        "x": 50,
+        "y": 45,
+        "font_size": 8,
+        "font_color": [0.3, 0.3, 0.3],
+        "font_name": "times",
+        "font_weight": "normal",
+        "max_width": 200,
+        "multiline": false
+      }
+    ],
+    "workspace_phone": [
+      {
+        "page": 1,
+        "x": 50,
+        "y": 58,
+        "font_size": 8,
+        "font_color": [0.3, 0.3, 0.3],
+        "font_name": "times",
+        "font_weight": "normal",
+        "max_width": 100,
+        "multiline": false
+      }
+    ],
+    "workspace_email": [
+      {
+        "page": 1,
+        "x": 160,
+        "y": 58,
+        "font_size": 8,
+        "font_color": [0.3, 0.3, 0.3],
+        "font_name": "times",
+        "font_weight": "normal",
+        "max_width": 150,
+        "multiline": false
+      }
+    ],
+    "status": [],
+    "includeWorkspaceSignature": []
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "template_filename": "CM d'Aptitude.pdf",
+  "coordinate_space": "fitz_top_left",
+  "notes": [
+    "Coordinate map for the scanned CM d'Aptitude template.",
+    "Coordinates stay in fitz_top_left space and are converted at render time by the backend PDF service.",
+    "The map targets the visible labels on page 1 of the certificate template."
+  ],
+  "fields": {
+    "certificate_number": [
+      {
+        "page": 1,
+        "x": 88.5,
+        "y": 252.5,
+        "font_size": 12,
+        "font_color": [1, 0, 0],
+        "font_name": "times",
+        "font_weight": "bold",
+        "max_width": 120,
+        "multiline": false
+      }
+    ],
+    "worker_first_name": [
+      {
+        "page": 1,
+        "x": 126,
+        "y": 278,
+        "font_size": 12,
+        "font_color": [0, 0, 1],
+        "font_name": "times",
+        "font_weight": "bold",
+        "max_width": 250,
+        "multiline": false
+      }
+    ],
+    "worker_last_name": [
+      {
+        "page": 1,
+        "x": 140.5,
+        "y": 300.5,
+        "font_size": 12,
+        "font_color": [0, 0, 1],
+        "font_name": "times",
+        "font_weight": "bold",
+        "max_width": 250,
+        "multiline": false
+      }
+    ],
+    "worker_birth_date": [
+      {
+        "page": 1,
+        "x": 146.5,
+        "y": 322.5,
+        "font_size": 12,
+        "font_color": [0, 0, 1],
+        "font_name": "times",
+        "font_weight": "bold",
+        "max_width": 120,
+        "multiline": false
+      }
+    ],
+    "worker_birth_place": [
+      {
+        "page": 1,
+        "x": 368,
+        "y": 323,
+        "font_size": 12,
+        "font_color": [0, 0, 1],
+        "font_name": "times",
+        "font_weight": "bold",
+        "max_width": 120,
+        "multiline": false
+      }
+    ],
+    "worker_position": [
+      {
+        "page": 1,
+        "x": 190,
+        "y": 376,
+        "font_size": 12,
+        "font_color": [0, 0, 1],
+        "font_name": "times",
+        "font_weight": "bold",
+        "max_width": 250,
+        "multiline": false
+      }
+    ],
+    "worker_blood_group_rh": [
+      {
+        "page": 1,
+        "x": 322.5,
+        "y": 410,
+        "font_size": 12,
+        "font_color": [0, 0, 1],
+        "font_name": "times",
+        "font_weight": "bold",
+        "max_width": 120,
+        "multiline": false
+      }
+    ],
+    "worker_blood_group": [
+      {
+        "page": 1,
+        "x": 155.5,
+        "y": 407,
+        "font_size": 12,
+        "font_color": [0, 0, 1],
+        "font_name": "times",
+        "font_weight": "bold",
+        "max_width": 120,
+        "multiline": false
+      }
+    ],
+    "issue_date": [
+      {
+        "page": 1,
+        "x": 190,
+        "y": 348,
+        "font_size": 12,
+        "font_color": [0, 0, 1],
+        "font_name": "times",
+        "font_weight": "bold",
+        "max_width": 160,
+        "multiline": false
+      }
+    ],
+    "visit_date": [
+      {
+        "page": 1,
+        "x": 445,
+        "y": 566,
+        "font_size": 12,
+        "font_color": [0, 0, 1],
+        "font_name": "times",
+        "font_weight": "bold",
+        "max_width": 180,
+        "multiline": false
+      }
+    ],
+    "aptitude": [
+      {
+        "page": 1,
+        "x": 165,
+        "y": 465,
+        "font_size": 12,
+        "font_color": [0, 0, 1],
+        "font_name": "times",
+        "font_weight": "bold",
+        "max_width": 250,
+        "multiline": false
+      }
+    ],
+    "doctor_recommendations": [
+      {
+        "page": 1,
+        "x": 105,
+        "y": 505,
+        "font_size": 12,
+        "font_color": [0, 0, 1],
+        "font_name": "times",
+        "font_weight": "bold",
+        "max_width": 660,
+        "multiline": true,
+        "line_height": 14
+      }
+    ],
+   
+    "doctor_name": [
+      {
+        "page": 1,
+        "x": 370,
+        "y": 680,
+        "font_size": 12,
+        "font_color": [0, 0, 1],
+        "font_name": "times",
+        "font_weight": "bold",
+        "max_width": 180,
+        "multiline": false
+      }
+    ],
+    "worker_company": [
+      {
+        "page": 1,
+        "x": 174,
+        "y": 486,
+        "font_size": 12,
+        "font_color": [0, 0, 1],
+        "font_name": "times",
+        "font_weight": "bold",
+        "max_width": 180,
+        "multiline": false
+      }
+    ],
+    
+    "status": [],
+    "includeWorkspaceSignature": [
+      {
+        "page": 1,
+        "x": 430,
+        "y": 604,
+        "image_width": 130,
+        "image_height": 46,
+        "font_size": 12,
+        "font_color": [0, 0, 1],
+        "font_name": "times",
+        "font_weight": "bold",
+        "max_width": 180,
+        "multiline": false
+      }
+    ],
+    "includeValidatorSignature": [
+      {
+        "page": 1,
+        "x": 430,
+        "y": 604,
+        "image_width": 130,
+        "image_height": 46
+      }
+    ]
+  }
+}

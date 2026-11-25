@@ -1,0 +1,14 @@
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+medical_clinic.db
+uploads/
+alembic/versions/*.pyc
+*.log
+.env
+.stage4-view-credentials.json
+recovery_tests/view-*.log
+recovery_tests/view-pids.json

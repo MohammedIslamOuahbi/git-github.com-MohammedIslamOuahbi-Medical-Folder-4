@@ -1,0 +1,16 @@
+{
+  "central_server": {
+    "api_port": 8000,
+    "backup_directory": "C:\\Users\\pc\\Desktop\\medical-folder-1\\.pytest-v2-client\\test_central_provision_endpoin0\\backups",
+    "description": "Provisionnement automatisé",
+    "retention_policy": "30 jours",
+    "server_code": "CENTRAL-SERVER",
+    "server_name": "Serveur central Ibn Sina"
+  },
+  "mobile_device": {
+    "central_server_url": "http://192.168.1.5:8000",
+    "description": "Poste mobile",
+    "device_code": "PC-01",
+    "device_name": "PC Medecin 01"
+  }
+}

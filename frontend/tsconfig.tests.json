@@ -1,0 +1,32 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "outDir": "./tmp-tests",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "target": "ES2022",
+    "rootDir": "./src"
+  },
+  "include": [
+    "src/api/fetchAllPages.ts",
+    "src/api/fetchAllPages.test.ts",
+    "src/pages/auth/setupFlow.ts",
+    "src/pages/auth/setupFlow.test.ts",
+    "src/pages/auth/loginConnectionInfo.ts",
+    "src/pages/auth/loginConnectionInfo.test.ts",
+    "src/config/connectionModeDisplay.ts",
+    "src/services/runtimeConnectionService.ts",
+    "src/services/runtimeConnectionValidationRules.ts",
+    "src/services/runtimeConnectionValidationRules.test.ts",
+    "src/features/central/centralServerFlow.ts",
+    "src/features/central/centralServerFlow.test.ts",
+    "src/features/installation/profileInfrastructure.ts",
+    "src/features/installation/profileInfrastructure.test.ts",
+    "src/features/installation/sidebarNavigation.ts",
+    "src/features/installation/sidebarNavigation.test.ts",
+    "src/features/mobile/mobileDeviceFlow.ts",
+    "src/features/mobile/mobileDeviceFlow.test.ts",
+    "src/types/**/*.ts"
+  ]
+}

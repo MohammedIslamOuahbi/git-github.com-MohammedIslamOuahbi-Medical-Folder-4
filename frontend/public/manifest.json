@@ -1,0 +1,9 @@
+{
+  "name": "Medical Clinic Management System",
+  "short_name": "ClinicMS",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f8fb",
+  "theme_color": "#145545",
+  "icons": []
+}

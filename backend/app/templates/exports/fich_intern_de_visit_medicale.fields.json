@@ -1,0 +1,1549 @@
+{
+  "template_filename": "Fich intern de visit Medicale.pdf",
+  "coordinate_space": "fitz_top_left",
+  "notes": [
+    "Real-template coordinate map for the scanned 2-page Fich intern de visit Medicale form.",
+    "Coordinates stay in fitz_top_left space and are converted at render time by the backend PDF service.",
+    "Fields without a visible destination on the paper template are intentionally left unresolved with an empty placement list.",
+    "Unresolved field keys: worker_direction, worker_employee_code, worker_national_id, clinical_general_comments, clinical_general_recommendations, complementary_radiology_chest_xray, complementary_radiology_others, decision_interpretation, decision_next_visit_schedule, decision_next_visit_date, decision_validation_doctor, decision_validation_date"
+  ],
+  "fields": {
+    "worker_full_name": [
+      {
+        "page": 1, 
+        "x": 121.5,
+        "y": 37.5,
+        "font_size": 12,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold",
+        "max_width": 245,
+        "multiline": false
+      }
+    ],
+    "worker_birth_date": [
+      {
+        "page": 1,
+        "x": 440,
+        "y": 37.5,
+        "font_size": 12,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold",
+        "max_width": 80,
+        "multiline": false
+      }
+    ],
+    "worker_position": [
+      {
+        "page": 1,
+        "x": 156,
+        "y": 57.5,
+        "font_size": 12,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold",
+        "max_width": 350,
+        "multiline": false
+      }
+    ],
+    "worker_direction": [],
+    "worker_employee_code": [],
+    "worker_national_id": [],
+    "visit_type_hire": [
+      {
+        "page": 1,
+        "x": 131,
+        "y": 78.5,
+        "font_size": 12,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold",
+        "max_width": 10,
+        "multiline": false
+      }
+    ],
+    "visit_type_periodic": [
+      {
+        "page": 1,
+        "x": 249,
+        "y": 78.5,
+        "font_size": 12,
+        "font_name": "times",
+        "max_width": 10,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_weight": "bold"
+      }
+    ],
+    "visit_date": [
+      {
+        "page": 1,
+        "x": 356,
+        "y": 78.5,
+        "font_size": 12,
+        "max_width": 72,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "visit_doctor": [
+      {
+        "page": 1,
+        "x": 476,
+        "y": 78.5,
+        "font_size": 12,
+        "max_width": 112,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "visit_weight": [
+      {
+        "page": 1,
+        "x": 66.8,
+        "y": 105,
+        "font_size": 12,
+        "max_width": 30,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "visit_height": [
+      {
+        "page": 1,
+        "x": 192,
+        "y": 106,
+        "font_size": 12,
+        "max_width": 36,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "visit_ta": [
+      {
+        "page": 1,
+        "x": 320,
+        "y": 106,
+        "font_size": 12,
+        "max_width": 48,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "visit_fc": [
+      {
+        "page": 1,
+        "x": 396,
+        "y": 106,
+        "font_size": 12,
+        "max_width": 42,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "visit_vision_od_sc": [
+      {
+        "page": 1,
+        "x": 234,
+        "y": 124,
+        "font_size": 12,
+        "max_width": 20,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "visit_vision_od_ac": [
+      {
+        "page": 1,
+        "x": 320,
+        "y": 124,
+        "font_size": 12,
+        "max_width": 20,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "visit_vision_og_sc": [
+      {
+        "page": 1,
+        "x": 234,
+        "y": 140,
+        "font_size": 12,
+        "max_width": 20,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "visit_vision_og_ac": [
+      {
+        "page": 1,
+        "x": 320,
+        "y": 140,
+        "font_size": 12,
+        "max_width": 20,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "visit_vision_odg": [
+      {
+        "page": 1,
+        "x": 234,
+        "y": 156,
+        "font_size": 12,
+        "max_width": 24,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "clinical_ophthalmology_observations": [
+      {
+        "page": 1,
+        "x": 129,
+        "y": 173,
+        "font_size": 12,
+        "max_width": 415,
+        "multiline": true,
+        "line_height": 13,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "clinical_ent_nose": [
+      {
+        "page": 1,
+        "x": 167,
+        "y": 208.4,
+        "font_size": 12,
+        "max_width": 410,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "clinical_ent_ears": [
+      {
+        "page": 1,
+        "x": 167,
+        "y": 222.4,
+        "font_size": 12,
+        "max_width": 420,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "clinical_ent_throat": [
+      {
+        "page": 1,
+        "x": 167,
+        "y": 236.5,
+        "font_size": 12,
+        "max_width": 420,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "clinical_stomatology_teeth": [
+      {
+        "page": 1,
+        "x": 167,
+        "y": 250.5,
+        "font_size": 12,
+        "max_width": 410,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "clinical_stomatology_others": [
+      {
+        "page": 1,
+        "x": 167,
+        "y": 264.5,
+        "font_size": 12,
+        "max_width": 410,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "clinical_cardiovascular_blood_pressure": [
+      {
+        "page": 1,
+        "x": 150,
+        "y": 292.2,
+        "font_size": 12,
+        "max_width": 40,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "clinical_cardiovascular_dyspnea": [
+      {
+        "page": 1,
+        "x": 178,
+        "y": 306.4,
+        "font_size": 12,
+        "max_width": 410,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "clinical_respiratory_chronic_cough": [
+      {
+        "page": 1,
+        "x": 210,
+        "y": 337.3,
+        "font_size": 12,
+        "max_width": 410,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "clinical_respiratory_asthma": [
+      {
+        "page": 1,
+        "x": 172,
+        "y": 351.7,
+        "font_size": 12,
+        "max_width": 410,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "clinical_digestive_ulcer": [
+      {
+        "page": 1,
+        "x": 165,
+        "y": 380.5,
+        "font_size": 12,
+        "max_width": 410,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "clinical_digestive_colopathy": [
+      {
+        "page": 1,
+        "x": 255,
+        "y": 394.5,
+        "font_size": 12,
+        "max_width": 370,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "clinical_digestive_hemorrhoids": [
+      {
+        "page": 1,
+        "x": 196,
+        "y": 408.5,
+        "font_size": 12,
+        "max_width": 370,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "clinical_digestive_others": [
+      {
+        "page": 1,
+        "x": 164,
+        "y": 422.5,
+        "font_size": 12,
+        "max_width": 420,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "clinical_urogenital_dysuria": [
+      {
+        "page": 1,
+        "x": 166,
+        "y": 449,
+        "font_size": 12,
+        "max_width": 420,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "clinical_urogenital_impotence": [
+      {
+        "page": 1,
+        "x": 188,
+        "y": 465.5,
+        "font_size": 12,
+        "max_width": 420,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "clinical_urogenital_others": [
+      {
+        "page": 1,
+        "x": 162,
+        "y": 482,
+        "font_size": 12,
+        "max_width": 420,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "clinical_endocrine_diabetes": [
+      {
+        "page": 1,
+        "x": 170,
+        "y": 510,
+        "font_size": 12,
+        "max_width": 420,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "clinical_endocrine_thyroid": [
+      {
+        "page": 1,
+        "x": 178,
+        "y": 525.5,
+        "font_size": 12,
+        "max_width": 420,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "clinical_endocrine_others": [
+      {
+        "page": 1,
+        "x": 170,
+        "y": 542,
+        "font_size": 12,
+        "max_width": 420,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "clinical_hematology_hemostasis": [
+      {
+        "page": 1,
+        "x": 183,
+        "y": 573,
+        "font_size": 12,
+        "max_width": 420,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "clinical_hematology_adenopathy": [
+      {
+        "page": 1,
+        "x": 193,
+        "y": 589,
+        "font_size": 12,
+        "max_width": 420,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "clinical_hematology_others": [
+      {
+        "page": 1,
+        "x": 166,
+        "y": 605,
+        "font_size": 12,
+        "max_width": 420,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "clinical_neuro_headaches_vertigo": [
+      {
+        "page": 1,
+        "x": 232,
+        "y": 639.5,
+        "font_size": 12,
+        "max_width": 420,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "clinical_neuro_neurological_signs": [
+      {
+        "page": 1,
+        "x": 232,
+        "y": 654,
+        "font_size": 12,
+        "max_width": 420,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "clinical_neuro_personality_disorders": [
+      {
+        "page": 1,
+        "x": 263,
+        "y": 668,
+        "font_size": 12,
+        "max_width": 420,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "clinical_neuro_others": [
+      {
+        "page": 1,
+        "x": 163,
+        "y": 682,
+        "font_size": 12,
+        "max_width": 420,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "clinical_osteo_polyarthralgia": [
+      {
+        "page": 1,
+        "x": 214,
+        "y": 711,
+        "font_size": 12,
+        "max_width": 390,
+        "multiline": true,
+        "line_height": 12,
+        "first_line_x": 214,
+        "other_lines_x": 130,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "clinical_dermatology_lesions": [
+      {
+        "page": 1,
+        "x": 230,
+        "y": 765,
+        "font_size": 12,
+        "max_width": 410,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "clinical_dermatology_skin_allergies": [
+      {
+        "page": 1,
+        "x": 218,
+        "y": 779,
+        "font_size": 12,
+        "max_width": 410,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "clinical_dermatology_urticaria": [
+      {
+        "page": 1,
+        "x": 184,
+        "y": 794,
+        "font_size": 12,
+        "max_width": 410,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "clinical_general_comments": [],
+    "clinical_general_recommendations": [],
+    "complementary_cardiology_ecg": [
+      {
+        "page": 2,
+        "x": 81,
+        "y": 74,
+        "font_size": 12,
+        "max_width": 520,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "complementary_audiology_audiogram": [
+      {
+        "page": 2,
+        "x": 119,
+        "y": 93,
+        "font_size": 12,
+        "max_width": 470,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "complementary_respiratory_efr": [
+      {
+        "page": 2,
+        "x": 71,
+        "y": 113,
+        "font_size": 12,
+        "max_width": 500,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "complementary_biology_blood_group_rhesus": [
+      {
+        "page": 2,
+        "x": 111,
+        "y": 133,
+        "font_size": 12,
+        "max_width": 68,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "complementary_biology_glycemia": [
+      {
+        "page": 2,
+        "x": 111,
+        "y": 152,
+        "font_size": 12,
+        "max_width": 96,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "complementary_biology_hba1c": [
+      {
+        "page": 2,
+        "x": 94,
+        "y": 171,
+        "font_size": 12,
+        "max_width": 84,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "complementary_biology_urea": [
+      {
+        "page": 2,
+        "x": 286,
+        "y": 151,
+        "font_size": 12,
+        "max_width": 108,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "complementary_biology_creatinine": [
+      {
+        "page": 2,
+        "x": 316,
+        "y": 171,
+        "font_size": 12,
+        "max_width": 72,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "complementary_biology_cholesterol": [
+      {
+        "page": 2,
+        "x": 458,
+        "y": 133,
+        "font_size": 12,
+        "max_width": 90,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "complementary_biology_triglycerides": [
+      {
+        "page": 2,
+        "x": 472,
+        "y": 151,
+        "font_size": 12,
+        "max_width": 77,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "complementary_biology_hdl_ldl": [
+      {
+        "page": 2,
+        "x": 466,
+        "y": 171,
+        "font_size": 12,
+        "max_width": 101,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "complementary_biology_urine_chemistry": [
+      {
+        "page": 2,
+        "x": 297,
+        "y": 133,
+        "font_size": 12,
+        "max_width": 110,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "complementary_hematology_gr": [
+      {
+        "page": 2,
+        "x": 69,
+        "y": 207,
+        "font_size": 12,
+        "max_width": 70,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "complementary_hematology_gb": [
+      {
+        "page": 2,
+        "x": 310,
+        "y": 207,
+        "font_size": 12,
+        "max_width": 116,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "complementary_hematology_hb": [
+      {
+        "page": 2,
+        "x": 69,
+        "y": 225,
+        "font_size": 12,
+        "max_width": 70,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "complementary_hematology_ht": [
+      {
+        "page": 2,
+        "x": 69,
+        "y": 242,
+        "font_size": 12,
+        "max_width": 70,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "complementary_hematology_vgm": [
+      {
+        "page": 2,
+        "x": 189,
+        "y": 208,
+        "font_size": 12,
+        "max_width": 112,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "complementary_hematology_ccmh": [
+      {
+        "page": 2,
+        "x": 190,
+        "y": 225,
+        "font_size": 12,
+        "max_width": 112,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "complementary_hematology_plt": [
+      {
+        "page": 2,
+        "x": 173,
+        "y": 242,
+        "font_size": 12,
+        "max_width": 112,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "complementary_hematology_pn": [
+      {
+        "page": 2,
+        "x": 444,
+        "y": 208,
+        "font_size": 12,
+        "max_width": 118,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "complementary_hematology_lymphocytes": [
+      {
+        "page": 2,
+        "x": 355,
+        "y": 225,
+        "font_size": 12,
+        "max_width": 86,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "complementary_hematology_bem": [
+      {
+        "page": 2,
+        "x": 468,
+        "y": 225,
+        "font_size": 12,
+        "max_width": 110,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "complementary_hematology_vs": [
+      {
+        "page": 2,
+        "x": 312,
+        "y": 242,
+        "font_size": 12,
+        "max_width": 115,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "complementary_parasitology_stool_exam": [
+      {
+        "page": 2,
+        "x": 168,
+        "y": 261,
+        "font_size": 12,
+        "max_width": 410,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "complementary_radiology_chest_xray": [],
+    "complementary_radiology_others": [],
+    "complementary_other_exams": [
+      {
+        "page": 2,
+        "x": 132,
+        "y": 280,
+        "font_size": 12,
+        "max_width": 460,
+        "first_line_x": 132,
+        "other_lines_x": 40,
+        "multiline": true,
+        "line_height": 17,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "decision_orientation_specialty": [
+      {
+        "page": 2,
+        "x": 80,
+        "y": 405,
+        "font_size": 12,
+        "max_width": 72,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "decision_orientation_specialist_advice": [
+      {
+        "page": 2,
+        "x": 233.5,
+        "y": 406.6,
+        "font_size": 12,
+        "max_width": 10,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "decision_orientation_specialist_advice_details": [
+      {
+        "page": 2,
+        "x": 302,
+        "y": 405,
+        "font_size": 12,
+        "max_width": 239,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "decision_orientation_treatment": [
+      {
+        "page": 2,
+        "x": 233.5,
+        "y": 421.6,
+        "font_size": 12,
+        "max_width": 10,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "decision_orientation_treatment_details": [
+      {
+        "page": 2,
+        "x": 327,
+        "y": 422,
+        "font_size": 12,
+        "max_width": 159,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "decision_orientation_hospitalization": [
+      {
+        "page": 2,
+        "x": 233.5,
+        "y": 438.6,
+        "font_size": 12,
+        "max_width": 10,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "decision_orientation_hospitalization_details": [
+      {
+        "page": 2,
+        "x": 350,
+        "y": 439,
+        "font_size": 12,
+        "max_width": 145,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "decision_specialist_response": [
+      {
+        "page": 2,
+        "x": 79,
+        "y": 456,
+        "font_size": 12,
+        "max_width": 152,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "decision_specialist_social_service": [
+      {
+        "page": 2,
+        "x": 101,
+        "y": 472,
+        "font_size": 12,
+        "max_width": 133,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "decision_specialist_employment_service": [
+      {
+        "page": 2,
+        "x": 106,
+        "y": 489,
+        "font_size": 12,
+        "max_width": 133,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "decision_cat_conduct": [
+      {
+        "page": 2,
+        "x": 75,
+        "y": 510,
+        "font_size": 12,
+        "max_width": 505,
+        "multiline": true,
+        "line_height": 17,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold",
+        "first_line_x": 75,
+        "other_lines_x": 40
+      }
+    ],
+    "decision_aptitudee": [
+      {
+        "page": 2,
+        "x": 122,
+        "y": 744,
+        "font_size": 12,
+        "max_width": 190,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "decision_aptitude_apte": [
+      {
+        "page": 2,
+        "x": 122,
+        "y": 744,
+        "font_size": 12,
+        "max_width": 190,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "decision_aptitude_apte_with_restrictions": [
+      {
+        "page": 2,
+        "x": 191,
+        "y": 764,
+        "font_size": 12,
+        "max_width": 190,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "decision_aptitude_temporarily_unfit": [
+      {
+        "page": 2,
+        "x": 191,
+        "y": 784,
+        "font_size": 12,
+        "max_width": 190,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "decision_aptitude_definitively_unfit": [
+      {
+        "page": 2,
+        "x": 191,
+        "y": 804,
+        "font_size": 12,
+        "max_width": 190,
+        "multiline": false,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold"
+      }
+    ],
+    "decision_interpretation": [],
+    "decision_next_visit_schedule": [],
+    "decision_next_visit_date": [],
+    "decision_validation_doctor": [],
+    "decision_validation_date": [],
+    "decision_validation_signature": [
+      {
+        "page": 2,
+        "x": 405,
+        "y": 718,
+        "font_size": 12,
+        "font_color": [
+          0,
+          0,
+          1
+        ],
+        "font_name": "times",
+        "font_weight": "bold",
+        "image_width": 280,
+        "image_height": 120,
+        "max_width": 300,
+        "multiline": false
+      }
+    ]
+  }
+}

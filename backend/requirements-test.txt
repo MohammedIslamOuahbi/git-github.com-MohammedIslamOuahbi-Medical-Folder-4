@@ -1,0 +1,7 @@
+-r requirements.txt
+
+# Starlette 1.7 TestClient imports this package. Keep it test-only.
+httpx2>=2.0.0
+
+# Used by isolated HTTP transport/recovery tests.
+requests>=2.31.0
